@@ -15,11 +15,12 @@ h1 {
 }
 
 h3 {
-    background: blue;
+    background: white;
     margin: 0;
     padding: 2px;
     float: right;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    border: blue;
 
 }
 h2 {
@@ -109,4 +110,29 @@ input[type=submit] {
   
 input[type=submit]:hover {
     background-color: blue;
+}
+
+#customers {
+    overflow: auto;
+    border: 3px solid #dddddd;
+    padding: 50px;
+    width: 750px;
+    height: auto;
+    margin: 0 auto;
+    background: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+
+#customers td, #customers th {
+    padding: 25px;
+    
+  }
+
+#customers th {
+    background: blue;
+    float: left;
+    padding: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
 }
